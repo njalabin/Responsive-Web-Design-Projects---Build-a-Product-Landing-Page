@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorbetessima</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header id="header">
-        <img src="" alt="" id="header-img">
+    <header id="header" class="container-header">
+        <img src="images/f8bd90b3-e94b-4950-874f-911dc1a4afcd_200x200.png" width="180" alt="image of ice cream in a cup" id="header-img" class="nav-link">
+        <h1 id="brand">Sorbetessima</h1>
         <nav id="nav-bar">
-            <a href="#Flavors" class="nav-link">Flavors</a>
+            <a href="#Products" class="nav-link">Products</a>
+            <a href="#Creation" class="nav-link">Creation</a>
             <a href="#Prices" class="nav-link">Prices</a>
-            <a href="#Creations" class="nav-link">Creations</a>
-            <a href="#Subscribe" class="nav-link">Subscribe</a>
+            <a href="#Contact" class="nav-link">Contact</a>
         </nav>    
     </header>
-    <main>
-        <p id="Flavors"></p>
-        <p id="Prices"></p>
-        <p id="Subscribe"></p>
-        <p id="Creations">
-            <iframe id="video" width="400" height="225" src="https://www.youtube.com/embed/-8MPE74pq4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </p>
-        <form action="" id="form">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="example@email.com">
-            <input type="submit" name="submit" id="submit" value="Subscribe">
-        </form>
+    <main class="container-main">
+        <div>
+            <p id="Products" class="box-1">Our Promise</p>
+            <p class="box-2">Our products are available in through different choices of original flavors that come from family-owned unique blends passed down from generations to generations.</p>
+
+            <p class="box-3">Our choices of flavors are sourced locally and 100% produced organically.</p>
+            
+            <p class="box-4">Our ingredients are procured directly from farm to production in highest quality.</p>
+        </div>
+        <div>
+            <p id="Creation">Our Quality</p>
+            <p><iframe id="video" width="500" height="315" src="https://www.youtube.com/embed/-8MPE74pq4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </div>
+        <div id="Prices">Our Prices</div>
+        <div class="container-price">
+            <p class="box-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis laudantium eius quidem? Enim dignissimos vero nesciunt, asperiores id molestiae.</p>
+
+            <p class="box-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis laudantium eius quidem? Enim dignissimos vero nesciunt, asperiores id molestiae.</p>
+            
+            <p class="box-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis laudantium eius quidem? Enim dignissimos vero nesciunt, asperiores id molestiae.</p>
+        </div>
+        <div id="Contact">
+            <form action="" id="form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com">
+                <input type="submit" name="submit" id="submit" value="Contact Us">
+            </form>
+        </div>
     </main>
 </body>
 </html>
